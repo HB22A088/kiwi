@@ -4,7 +4,7 @@
 void DrawMain()
 {
     Clear(kColorBlack);
-
+    DrawCircle(100, 100, 50, kColorRed);//宇藤追加
     DrawLine(-320, 0, 319, 0, kColorGray);
     DrawLine(0, -240, 0, 239, kColorGray);
     DrawLine(0, 240, 0, -239, kColorBlue);
@@ -35,5 +35,6 @@ void DrawMain()
     DrawText("Hello, world!!", -12*14/2, -44, kColorRed);
     Sleep(0.5f);
     DrawText("Hello, world!!", -12*14/2, -66, kColorGray);
+    
 }
 
